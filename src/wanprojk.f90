@@ -13,7 +13,7 @@ integer, intent(in) :: nproj
 integer, intent(in) :: mst
 integer, intent(in) :: nst 
 complex(8), intent(in) :: subulm(ld,ld,norb,nproj)
-integer, intent(in) :: sublm(ld,iorb,norb,nproj)
+integer, intent(in) :: sublm(ld,norb,nproj)
 complex(8), intent(in) :: symlm(ld,ld,norb,nproj)
 complex(8), intent(inout) :: wanprj(ld,mst,nspinor,norb,nproj) 
 !local
